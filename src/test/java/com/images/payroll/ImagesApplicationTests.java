@@ -1,10 +1,10 @@
-package com.payroll.payroll;
+package com.images.payroll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PayrollApplicationTests {
+class ImagesApplicationTests {
 
 	@Test
 	void contextLoads() {

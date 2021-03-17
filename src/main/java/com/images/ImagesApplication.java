@@ -1,12 +1,12 @@
-package com.payroll.payroll;
+package com.images;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PayrollApplication {
+public class ImagesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PayrollApplication.class, args);
+		SpringApplication.run(ImagesApplication.class, args);
 	}
 }
