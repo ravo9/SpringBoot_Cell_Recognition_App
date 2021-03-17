@@ -43,7 +43,7 @@ public class ImageService {
             }
         }
 
-        Path destination = Paths.get(storageDirectory.toString() + "\\" + fileName);
+        Path destination = Paths.get(storageDirectory.toString() + "/" + fileName);
 
         try {
             Files.copy(file.getInputStream(), destination, StandardCopyOption.REPLACE_EXISTING);// we are Copying all bytes from an input stream to a file
